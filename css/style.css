@@ -4,11 +4,10 @@ body {
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 .image-hold {
     background: url(../img/content_background.png)no-repeat center;
     -moz-background-size: auto 100%;
@@ -16,11 +15,11 @@ body {
     background-size: auto 100%;
     background-position: top center !important;
     margin-top: -57px;
-    height: 506px;
-        position: relative;
+    height: 480px;
+    position: relative;
 }
-textarea{
-        outline: none;
+textarea {
+    outline: none;
     -webkit-appearance: none;
     resize: none;
 }
@@ -28,7 +27,7 @@ textarea.type-box {
     background: url(../img/line.png)no-repeat center;
     border: 0;
     background-color: transparent;
-        width: 80%;
+    width: 80%;
     line-height: 43px;
     background-repeat-y: repeat;
     background-position-y: 36px;
@@ -36,60 +35,174 @@ textarea.type-box {
 .input-data {
     position: absolute;
     top: 185px;
+    left: 35px;
+    width: 85%;
 }
-
 .input-data h3 {
     color: #030047;
     font-weight: 700;
     margin-bottom: 7px !important;
-        display: inline-block;
-        font-size: 21px;
+    display: inline-block;
+    font-size: 21px;
 }
-.input-container{
-       display: inline-flex;
+.input-container {
+    display: inline-flex;
     width: 70%;
 }
-.img-box img{
+.img-box img {
     width: 130px;
 }
-.p40{
-    padding-top: 40px;;
+.p40 {
+    padding-top: 40px;
+    ;
 }
-.pl60{
-        padding-left: 60px;
+.pl60 {
+    padding-left: 60px;
 }
-.pr85{
-          padding-right: 85px
+.pr85 {
+    padding-right: 85px
 }
- input {
-     background: transparent;
+input {
+    background: transparent;
     border: none;
     outline: none;
     margin-left: 5px;
     border-bottom: 3px solid #030047;
     width: 99%;
-         font-size: 18px;
+    font-size: 18px;
     margin-bottom: 7px;
 }
-.w90{
+.w90 {
     width: 90%;
 }
-.m7{
+.m7 {
     margin-top: 7px;
 }
-.f18{
-     font-size: 19px !important;
+.f18 {
+    font-size: 19px !important;
     margin-top: 10px;
 }
-.w80{
+.w80 {
     width: 80%;
 }
 .leaf {
     position: absolute;
     right: 86px;
     bottom: -18px;
-    
 }
-.leaf img{
-    width: 225px;
+.leaf img {
+    width: 200px;
+}
+
+/*regards1*/
+
+.color-white {
+    color: #fff !important;
+}
+.regards-bg {
+    background: url('../img/BROWN.jpg') no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.image-holder {
+    height: 424px;
+    position: relative;
+}
+.image-holder .input-data {
+    top: 147px;
+}
+.thank {
+    margin: 15px 0;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.fill-width {
+    width: 86%;
+}
+.w100 {
+    width: 100%;
+}
+.wd75 {
+    width: 75%;
+}
+.bdwhite {
+    border-bottom: 3px solid #fff;
+    margin-left: 2px;
+    line-height: 1px !important;
+}
+.bdwhite + span {
+    color: #fff;
+    font-size: 34px;
+    line-height: 1px;
+    display: inine-block;
+    margin-top: 7px;
+}
+.brown {
+    position: absolute;
+    top: 39px;
+    left: 115px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.brown > img {
+    width: 290px
+}
+
+/*regard2*/
+
+.green {
+    background: url(../img/greenback.jpg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.green-holder {
+    background: url(../img/third.png) no-repeat 50% 50%;
+    height: 424px;
+    -webkit-background-size: contain;
+    background-size: contain;
+    position: relative;
+}
+.green-content {
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+.wd60 {
+    width: 60%;
+}
+.green-data {
+    position: absolute;
+    top: 90px;
+}
+.mgl {
+    margin-left: 25px;
+}
+.color-green {
+    color: #142b00 !important;
+}
+.bdgreen {
+    border-bottom: 2px solid #142b00;
+}
+.green-leaf {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.green-leaf > img {
+    width: 210px;
+}
+footer {
+    padding: 10px 0 0;
+    margin-top: 30px;
+    background-color: #fff;
+}
+footer .center > img {
+    width: 250px;
+    margin: 0 auto;
+}
+footer p {
+    margin: 10px 0;
 }

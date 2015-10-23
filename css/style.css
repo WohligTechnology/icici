@@ -43,7 +43,7 @@ textarea.type-box {
     font-weight: 700;
     margin-bottom: 7px !important;
     display: inline-block;
-    font-size: 21px;
+    font-size: 19px;
 }
 .input-container {
     display: inline-flex;
@@ -79,7 +79,7 @@ input {
     margin-top: 7px;
 }
 .f18 {
-    font-size: 19px !important;
+    font-size: 17px !important;
     margin-top: 10px;
 }
 .w80 {
@@ -195,8 +195,11 @@ input {
     width: 210px;
 }
 footer {
+    width: 100%;
     padding: 10px 0 0;
     margin-top: 30px;
+    position: fixed;
+    bottom: 0;
     background-color: #fff;
 }
 footer .center > img {

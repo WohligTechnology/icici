@@ -1,4 +1,7 @@
 body {
+    background-color: #000 !important;
+}
+.blue {
     font-family: 'PT Sans', sans-serif;
     background: url(../img/blue_background.jpg)no-repeat center;
     -moz-background-size: cover;
@@ -102,7 +105,8 @@ input {
 .regards-bg {
     background: url('../img/BROWN.jpg') no-repeat;
     -webkit-background-size: 100%;
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .image-holder {
     height: 424px;
@@ -156,6 +160,7 @@ input {
     background: url(../img/greenback.jpg) no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
 }
 .green-holder {
     background: url(../img/third.png) no-repeat 50% 50%;
@@ -196,10 +201,13 @@ input {
 }
 footer {
     width: 100%;
-    padding: 10px 0 0;
-    margin-top: 30px;
     position: fixed;
     bottom: 0;
+    margin-top: 30px;
+    background-color: #fff;
+}
+footer > .container {
+    padding: 10px 0 0;
     background-color: #fff;
 }
 footer .center > img {
@@ -208,4 +216,27 @@ footer .center > img {
 }
 footer p {
     margin: 10px 0;
+}
+.minwd {
+    min-width: 1000px;
+}
+.pdb {
+    padding-bottom: 150px;
+}
+.choose {
+    margin: 85px 0;
+}
+.text > h2 {
+    margin-bottom: 25px;
+    color: #fff;
+}
+.link {
+    display: block;
+    border: 5px solid transparent;
+}
+.link:hover {
+    border: 5px solid #fff;
+    transition: all 800ms ease-in-out;
+    -webkit-transition: all 800ms ease-in-out;
+    -moz-transition: all 800ms ease-in-out;
 }

@@ -49,6 +49,7 @@ textarea.type-box {
     font-size: 19px;
 }
 .input-container {
+    line-height: 1px;
     display: inline-flex;
     width: 70%;
 }
@@ -82,7 +83,7 @@ input {
     margin-top: 7px;
 }
 .f18 {
-    font-size: 17px !important;
+    font-size: 19px !important;
     margin-top: 10px;
 }
 .w80 {
@@ -117,7 +118,7 @@ input {
 }
 .thank {
     margin: 15px 0;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 700;
     text-transform: capitalize;
 }
@@ -171,7 +172,7 @@ input {
 }
 .green-content {
     margin: 15px 0;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 700;
     text-align: center;
 }
@@ -189,7 +190,23 @@ input {
     color: #142b00 !important;
 }
 .bdgreen {
-    border-bottom: 2px solid #142b00;
+    border: none;
+}
+.input-me {
+    border: none;
+    display: inline-block;
+    min-width: 150px;
+    line-height: 15px !important;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 700;
+}
+.input-me:focus {
+    outline: none;
+}
+.input-me + span {
+    font-size: 34px;
+    font-weight: 700;
 }
 .green-leaf {
     position: absolute;

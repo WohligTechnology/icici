@@ -15,10 +15,11 @@ body {
     background: url(../img/content_background.png)no-repeat center;
     -moz-background-size: auto 100%;
     -webkit-background-size: auto 100%;
-    background-size: auto 100%;
+    background-size: 100% 100%;
     background-position: top center !important;
-    margin-top: -57px;
-    height: 480px;
+    margin: -57px auto 0;
+    height: 500px;
+    width: 496px;
     position: relative;
 }
 textarea {
@@ -41,8 +42,9 @@ textarea.type-box {
 .input-data {
     position: absolute;
     top: 185px;
-    left: 35px;
-    width: 85%;
+    left: 0;
+    width: 100%;
+    padding: 0 80px;
 }
 .input-data h3 {
     color: #030047;
@@ -248,7 +250,7 @@ footer p {
     min-width: 1000px;
 }
 .pdb {
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 .choose {
     margin: 85px 0;

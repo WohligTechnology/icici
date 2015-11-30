@@ -100,7 +100,7 @@ input {
     bottom: -18px;
 }
 .leaf img {
-    width: 200px;
+    width: 145px;
 }
 
 /*regards1*/
@@ -176,7 +176,7 @@ input {
     position: relative;
 }
 .green-content {
-    margin: 15px 0;
+    margin: 15px 0 0;
     font-size: 17px;
     font-weight: 700;
     text-align: center;
@@ -224,7 +224,7 @@ input {
     bottom: 0;
 }
 .green-leaf > img {
-    width: 210px;
+    width: 145px;
 }
 footer {
     width: 100%;
@@ -248,7 +248,7 @@ footer p {
     min-width: 1000px;
 }
 .pdb {
-    padding-bottom: 150px;
+    padding-bottom: 120px;
 }
 .choose {
     margin: 85px 0;
@@ -266,4 +266,10 @@ footer p {
     transition: all 800ms ease-in-out;
     -webkit-transition: all 800ms ease-in-out;
     -moz-transition: all 800ms ease-in-out;
+}
+@media print {
+    .green:before {
+       content: url('../img/greenback.jpg');
+        position: absolute;
+    }
 }

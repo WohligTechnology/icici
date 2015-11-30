@@ -54,6 +54,7 @@ textarea.type-box {
     left: 0;
     width: 100%;
     padding: 0 80px;
+    z-index: 12;
 }
 .input-data h3 {
     color: #030047;
@@ -166,7 +167,6 @@ input {
     left: 115px;
     right: 0;
     bottom: 0;
-    z-index: -1;
 }
 .brown > img {
     width: 290px

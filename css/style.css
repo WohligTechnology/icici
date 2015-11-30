@@ -268,8 +268,10 @@ footer p {
     -moz-transition: all 800ms ease-in-out;
 }
 @media print {
+    body {
+        position: relative;
+    }
     .green:before {
-       content: url('../img/greenback.jpg');
-        position: absolute;
+       background: url('../img/greenback.jpg');
     }
 }

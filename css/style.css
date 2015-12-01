@@ -69,11 +69,14 @@ textarea.type-box {
 }
 .input-container {
     line-height: 1px;
+/*
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -moz-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+*/
+    display: inline-block;
     width: 70%;
 }
 .img-box img {
@@ -219,8 +222,8 @@ input {
     font-weight: 700;
     text-align: center;
 }
-.wd60 {
-    width: 60%;
+.wd65 {
+    width: 65%;
 }
 .green-data {
     padding: 0 15px;

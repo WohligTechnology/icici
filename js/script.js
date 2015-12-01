@@ -4,14 +4,16 @@ $( document ).ready(function() {
 
 
   // Hide show of comma
-  $('.comma').hide();
+  $('.comma').addClass("hided");
   $('.commashow').keyup(function() {
     var text = $('.commashow').text();
     if (text=='') {
-      $('.comma').fadeOut();
+      $('.comma').removeClass("showed");
+      $('.comma').addClass("hided");
     }
     else {
-      $('.comma').fadeIn();
+      $('.comma').removeClass("hided");
+      $('.comma').addClass("showed");
     };
   });
 

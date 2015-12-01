@@ -313,3 +313,12 @@ footer p {
     height: 100%;
     width: 100%;
 }
+.pad-35 {
+    padding-left: 35px;
+}
+.hided {
+  opacity: 0;
+}
+.showed {
+  opacity: 1;
+}

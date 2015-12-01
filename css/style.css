@@ -12,19 +12,21 @@
 }
 .blue {
     font-family: 'PT Sans', sans-serif;
-    background: url(../img/blue_background.jpg)no-repeat center;
-    -moz-background-size: cover;
+    background: url(../img/blue_background.jpg) no-repeat center;
     -webkit-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .image-hold {
-    background: url(../img/content_background.png)no-repeat center;
-    -moz-background-size: auto 100%;
-    -webkit-background-size: auto 100%;
-    background-size: 100% 100%;
+    background: url(../img/content_background.png) no-repeat center;
+    -webkit-background-size: 100% 100%;
+       -moz-background-size: 100% 100%;
+         -o-background-size: 100% 100%;
+            background-size: 100% 100%;
     background-position: top center !important;
     margin: -57px auto 0;
     height: 500px;
@@ -34,6 +36,8 @@
 textarea {
     outline: none;
     -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     resize: none;
 }
 textarea.type-box {
@@ -65,6 +69,10 @@ textarea.type-box {
 }
 .input-container {
     line-height: 1px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     width: 70%;
 }
@@ -122,8 +130,14 @@ input {
 }
 .regards-bg {
     background: url('../img/BROWN.jpg') no-repeat;
-    -webkit-background-size: 100%;
-    background-size: cover;
+    -webkit-background-size: 100% 100%;
+       -moz-background-size: 100%;
+         -o-background-size: 100%;
+            background-size: 100%;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     background-attachment: fixed;
 }
 .image-holder {
@@ -177,7 +191,9 @@ input {
 .green {
     background: url(../img/greenback.jpg) no-repeat;
     -webkit-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     background-attachment: fixed;
 }
 .green-holder {
@@ -187,7 +203,9 @@ input {
     position: relative;
     background: url(../img/third.png) no-repeat center center;
     -webkit-background-size: contain;
-    background-size: contain;
+       -moz-background-size: contain;
+         -o-background-size: contain;
+            background-size: contain;
 }
 .green-third {
     width: 100%;
@@ -281,9 +299,10 @@ footer p {
 }
 .link:hover {
     border: 5px solid #fff;
-    transition: all 800ms ease-in-out;
     -webkit-transition: all 800ms ease-in-out;
     -moz-transition: all 800ms ease-in-out;
+    -o-transition: all 800ms ease-in-out;
+    transition: all 800ms ease-in-out;
 }
 .backme {
     position: relative;
